@@ -1,0 +1,11 @@
+table, th, td {
+    border: 1px solid black;
+    margin-right: 20px;
+    margin-left: 600px;
+  }
+table{
+width: 500px;
+}
+#umdoistres{
+    width: 100px;
+}

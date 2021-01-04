@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+
+<body>
+
+    <h1>FAÇA SUA INSCRIÇÃO!</h1>
+    <form action="text.txt" method="dialog">
+        <H2 class="sub">DADOS PESSOAIS</H2>
+        <p>NOME:&nbsp;&nbsp; <input type="text" name="Insira seu nome" placeholder="Insira seu nome aqui"></p>
+        <p>SOBRENOME: &nbsp;&nbsp;<input type="text" name="Insira seu sobrenome"
+                placeholder="Insira seu sobrenome aqui"></p>
+        <P>
+            SEXO: <select name="SEXO" id="SEXO">
+                <option value="1"> MASCULINO</option>
+                <option value="2"> FEMININO</option>
+                <option value="3"> Blood Elf</option>
+
+            </select>
+        </P>
+        <p> TELEFONE&nbsp;&nbsp;<input type="tel" name="TELEFONE" placeholder="Telefone para contato"></p>
+        <P>DATA DE NASCIMENTO&nbsp;&nbsp; <input type="date" name="data" placeholder="DATA"></P>
+        <p>ENDEREÇO:&nbsp;&nbsp; <input type="text" name="Rua, numero, bairro" placeholder="Rua, numero, bairro"></p>
+        <p>CIDADE:&nbsp;&nbsp; <input type="text" name="Cidade" placeholder="Cidade"> <INput type="text" name="CEP"
+                placeholder=" CEP"></INput></p>
+        <H2 class="sub">OBJETIVOS:</H2><br>
+        <input type="checkbox" name="Objetivos" value=" 1"> SAÚDE
+        <input type="checkbox" name="Objetivos" value=" 2"> HIPERTROFIA
+        <input type="checkbox" name="Objetivos" value=" 3"> EMAGRECIMENTO
+        <input type="checkbox" name="Objetivos" value=" 4"> ESTÉTICA
+        <input type="checkbox" name="Objetivos" value=" 5"> RENDIMENTO
+        <br>
+
+        <div>
+            <p>
+            <H2 class="sub"> <label>SELECIONE SUA ACADEMIA</label></h2><br>
+            <input id="academia1" type="radio" name="academia" value="1" checked>ACADEMIA FENIX <br>
+            <input id="academia2" type="radio" name="academia" value="2">ACADEMIA CORPO EM MOVIMENTO<br>
+            <input id="academia3" type="radio" name="academia" value="3">DFIT<br>
+            <input id="academia4" type="radio" name="academia" value="4">CROSS EXPERIENCE<br>
+            <input id="academia5" type="radio" name="academia" value="5">WC STUDIO<br>
+            <input id="academia5" type="radio" name="academia" value="5">TREINO AO AR LIVRE - LAGO DOS IPÊS<br>
+            </p>
+        </div>
+        <H2 class="sub"> ESCOLHA SEU PLANO</H2><br>
+        <select name="PLANOS 2020">
+            <option value="1">PACOTE ONLINE - PLANO SEMESTRAL R$ 199,99 X 6</option>
+            <option value="1">PRESENCIAL - PLANO SEMESTRAL 3X NA SEMANA R$ 299,99 X 6</option>
+            <option value="2">PRESENCIAL - PLANO SEMESTRAL 3X NA SEMANA + AVALIAÇÃO COMPLETA R$ 399,99 X 6</option>
+            <option value="3">PRESENCIAL - PLANO SEMESTRAL 4X NA SEMANA + AVALIAÇÃO COMPLETA R$ 499,99 X 6</option>
+            <option value="4">PRESENCIAL - PLANO SEMESTRAL 5X NA SEMANA + AVALIAÇÃO COMPLETA R$ 599,99 X 6</option>
+            <option value="5">PRESENCIAL - PLANO SEMESTRAL 6X NA SEMANA + AVALIAÇÃO COMPLETA R$ 699,99 X 6</option>
+        </select>
+
+        <br><br>
+        <Input id="enviar" type="submit" value="ENVIAR">
+
+    </form>
+
+
+
+
+</body>
+
+</html>
